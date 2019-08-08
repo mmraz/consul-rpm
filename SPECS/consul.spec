@@ -1,7 +1,7 @@
 %if 0%{?_version:1}
 %define         _verstr      %{_version}
 %else
-%define         _verstr      1.4.0
+%define         _verstr      1.5.2
 %endif
 
 Name:           consul
@@ -111,6 +111,12 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu May 08 2019 Igor Krutyakov <lebriquet@gmail.com>
+- Bump version to 1.4.4
+
+* Sun Feb 24 2019 Ilya Voronin <ivoronin@gmail.com>
+- Bump version to 1.4.2
+
 * Fri Nov 30 2018 Michael Mraz <michaelmraz@gmail.com>
 - Bump version to 1.4.0
 
